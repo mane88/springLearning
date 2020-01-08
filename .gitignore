@@ -1,6 +1,10 @@
+#system specific
 *.exe
+
+#project specific
 *.log
-*.pub
 .metadata/
+
+#git specific
+*.pub
 gitssh
-Servers/
