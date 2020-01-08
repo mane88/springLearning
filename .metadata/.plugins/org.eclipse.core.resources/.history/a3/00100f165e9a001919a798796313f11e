@@ -1,6 +1,0 @@
-package com.mane.rest.webservices.restfulwebservices.user;
-
-
-public class UserDaoService {
-
-}

@@ -1,9 +1,0 @@
-package com.mane.rest.webservices.restfulwebservices;
-
-public class HelloWorldController {
-	
-	public String helloworld() {
-		return "Hello World";
-	}
-
-}
