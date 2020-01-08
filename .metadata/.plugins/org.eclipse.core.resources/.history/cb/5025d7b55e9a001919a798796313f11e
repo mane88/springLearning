@@ -1,0 +1,27 @@
+package com.mane.rest.webservices.restfulwebservices.user;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class UserDaoService {
+	
+	private static List<User> users = new ArrayList<User>();
+	
+	static {
+		users.add(new User(1,"Adam",new Date()));
+		users.add(new User(1,"John",new Date()));
+		users.add(new User(1,"Eve",new Date()));
+	}
+	
+	finalAll(){
+		
+	}
+	
+	public User save(User user) {
+		
+	}
+}

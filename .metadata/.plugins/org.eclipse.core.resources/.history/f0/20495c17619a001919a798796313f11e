@@ -1,0 +1,16 @@
+package com.mane.rest.webservices.restfulwebservices.user;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserResource {
+
+	private UserDaoService userService;
+	// retrieveAllUsers
+	//GET /users
+	public List<User> retrieveAllUsers(){
+		
+	}
+	
+	//retrieveUser(int id)
+}

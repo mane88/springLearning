@@ -1,0 +1,10 @@
+package com.mane.rest.webservices.restfulwebservices;
+
+public class User {
+
+	private Integer id;
+	private String name;
+	private Date birthDate;
+	
+	
+}
